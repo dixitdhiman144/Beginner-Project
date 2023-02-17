@@ -28,9 +28,7 @@ print("Is it working ? - %s"%(ans))
 from sample_madlib import code_1, code_2, code_3, code_4
 import random
 
-print(__name__)
 
-select_code = random.choice([code_1, code_2, code_3, code_4])
-select_code.madlib()
-
-# select_code.madlib()
+if __name__ == "__main__":
+    select_code = random.choice([code_1, code_2, code_3, code_4])
+    select_code.madlib()
